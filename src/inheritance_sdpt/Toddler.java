@@ -10,11 +10,11 @@ public class Toddler extends Person {
     }
 
     void drink() {
-        System.out.println(name + "Drinking milk");
+        System.out.println(name + " is Drinking milk");
     }
 
-    void checkStatus() {
-        super.checkStatus(); // calling the method from the parent class; method overriding
+    void checkStatus() { // if wanted to add more attributes to the checkStatus method, we can method override it
+        super.checkStatus();
         System.out.println("Favorite Game: " + favoriteGame);
     }
 }
