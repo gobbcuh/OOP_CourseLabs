@@ -2,8 +2,8 @@ package laboratory2_1;
 
 public class Cat extends Animal {
 
+    @Override
     void makeSound() {
-       super.makeSound();
-       System.out.println("Arf Arf");
+       System.out.println("Arf Arf Arf");
     }
 }
