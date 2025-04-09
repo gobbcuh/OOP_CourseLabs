@@ -1,5 +1,5 @@
 package polymorphism_sdpt;
 
-public class Strong_Enemy {
+public class Strong_Enemy extends Enemy {
     
 }
