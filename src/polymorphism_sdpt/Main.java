@@ -9,6 +9,7 @@ public class Main {
         // a.makeSound();
         // b.makeSound();
 
-        
+        Enemy enemy1 = new Weak_Enemy();    // Polymorphism: Enemy reference but Weak_Enemy object
+        Enemy enemy2 = new Strong_Enemy();
     }
 }
