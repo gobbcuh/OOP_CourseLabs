@@ -11,5 +11,10 @@ public class Main {
 
         Enemy enemy1 = new Weak_Enemy();    // Polymorphism: Enemy reference but Weak_Enemy object
         Enemy enemy2 = new Strong_Enemy();
+
+        enemy1.dialogue();
+        enemy1.status();
+        enemy2.dialogue();
+        enemy2.status();
     }
 }
