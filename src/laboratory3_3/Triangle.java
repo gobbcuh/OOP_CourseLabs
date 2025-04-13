@@ -1,5 +1,5 @@
 package laboratory3_3;
 
-public class Triangle {
+public class Triangle extends Shape {
     
 }
