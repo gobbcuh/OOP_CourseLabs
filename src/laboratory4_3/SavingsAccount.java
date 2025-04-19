@@ -14,7 +14,8 @@ public class SavingsAccount extends BankAccount {
         if (amount <= balance) {
             balance -= amount;
             System.out.println("Withdrawing " + amount + " from savings account. Balance: " + balance);
-        } else {
+        } 
+        else {
             System.out.println("Insufficient funds in savings account.");
         }
     }

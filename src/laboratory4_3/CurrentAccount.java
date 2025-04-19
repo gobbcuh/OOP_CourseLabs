@@ -14,7 +14,8 @@ public class CurrentAccount extends BankAccount {
         if (amount <= balance) {
             balance -= amount;
             System.out.println("Withdrawing " + amount + " from current account. Balance: " + balance);
-        } else {
+        } 
+        else {
             System.out.println("Insufficient funds in current account.");
         }
     }
