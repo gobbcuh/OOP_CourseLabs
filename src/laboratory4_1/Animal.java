@@ -1,5 +1,5 @@
 package laboratory4_1;
 
-public class Animal {
-    
+public abstract class Animal {
+    abstract void sound();
 }
