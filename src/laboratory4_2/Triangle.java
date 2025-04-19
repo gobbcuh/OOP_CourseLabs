@@ -3,10 +3,12 @@ package laboratory4_2;
 public class Triangle extends Shape {
     @Override
     void calculateArea() {
-        System.out.println("Calculating area of Circle");
+        area = 0.5f * base * height;
+        System.out.println("Area of Triangle: " + area);
     }
     @Override
     void calculatePerimeter() {
-        System.out.println("Calculating perimeter of Circle");
+        perimeter = a + b + c;
+        System.out.println("Perimeter of Triangle: " + perimeter);
     }
 }
