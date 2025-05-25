@@ -4,11 +4,11 @@ import javax.swing.*;
 
 // Simple Text Editor
 
-public class SimpleTextEditor {
+public class Example4 {
     private JFrame frame;
     private JTextArea textArea;
 
-    public SimpleTextEditor() {
+    public Example4() {
         frame = new JFrame("Simple Text Editor");
         textArea = new JTextArea(10, 30);
         textArea.setLineWrap(true);
@@ -23,6 +23,6 @@ public class SimpleTextEditor {
         frame.setVisible(true);
     }
     public static void main(String[] args) {
-        new SimpleTextEditor();
+        new Example4();
     }
 }
